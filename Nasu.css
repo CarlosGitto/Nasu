@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box ;
+    box-sizing: border-box;
+}
+/*fondos*/
+body{background-color: #eaeaea;}
+.header{background-color: #000;}
+.nav{background-image: url(http://drive.google.com/uc?export=view&id=1BQYh650Qg3ocMvOQw34i3w2kyH-0MybN);
+     background-repeat: no-repeat;
+     background-size: 100% 155%;
+     border: 2px solid blue;
+     height: 600px;
+     
+     
+    }
+
+
+.article{background-image: url(http://drive.google.com/uc?export=view&id=1wyCYnrYuUeMlJVUG27yCrrwMzLmPS7BR);
+         background-repeat: no-repeat;
+        }
+.aside{background-color: #f5f5f5;}
+.extra{background-color: #f5f5f5;}
+.footer{background-color: #000;}
+/*fonts*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.header{
+    color: white;
+}
+
+.article{
+    color: black;
+    
+}
+.article a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+.aside{
+    color: black;
+}
+.extra .seccion{
+    color: #07076f;
+}
+.extra .noticias{
+    color: #07076f;
+    text-decoration: #07076f;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+.extra .descripcion{
+    color: black;
+    text-align: center;
+}
+/*espáciado*/
+section{
+    margin-top: 66px ;
+    border: 2px solid black;
+}
+.extra{
+    margin-top: 54px;
+
+}
+.extra .seccion{
+                margin-top: 33px;
+}
+.extra img {
+                margin-top: 56px;
+                margin-bottom: 40px;    
+            }
+.extra .noticias{
+                margin-bottom:  38px;
+}
+.extra .descripcion{
+            
+}
+/*tamaños*/
+.nav{}
+.article{ height: 100%;}
+.article a .trabajos{ height: 70%;
+                width: 70%;
+                margin-top: 40px;
+            }
+.article a .perfil{ height: 50%;
+                    width: 50%;
+                    margin-top: 40px;
+}
+.article .separacion{ margin-bottom: 40px;}
+/*formas*/
+.article{
+            border-radius: 1%;
+}
+.article a img.perfil{
+
+                        border-radius: 50%;
+}
+
+.extra img{
+    margin: 56px 0px;
+    height: 25%;
+    width: 50%;
+}
