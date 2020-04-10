@@ -11,14 +11,14 @@ body{background-color: #eaeaea;}
      background-repeat: no-repeat;
      background-size: 100% 155%;
      border: 2px solid blue;
-     height: 600px;
+     height: 300px;
      
      
     }
     @media only screen and (min-width: 768px) {
         
         .nav {
-          height: 300px;
+          height: 600px;
         }
       }
 
