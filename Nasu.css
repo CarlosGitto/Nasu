@@ -17,8 +17,8 @@ body{background-color: #eaeaea;}
     }
     @media only screen and (max-width: 768px) {
         
-        [class*="nav"] {
-          height: 50%;
+        .nav {
+          height: 300px;
         }
       }
 
