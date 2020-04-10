@@ -15,7 +15,12 @@ body{background-color: #eaeaea;}
      
      
     }
-
+    @media only screen and (max-width: 768px) {
+        
+        [class*="nav"] {
+          height: 50%;
+        }
+      }
 
 .article{background-image: url(http://drive.google.com/uc?export=view&id=1wyCYnrYuUeMlJVUG27yCrrwMzLmPS7BR);
          background-repeat: no-repeat;
